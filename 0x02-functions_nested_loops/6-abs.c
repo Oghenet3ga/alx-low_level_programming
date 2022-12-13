@@ -4,16 +4,15 @@
 /**
  * _abs - Entry point
  *@n: the character
- * Return: Always 0.
+ * Return: Absolute value
  */
 int _abs(int n)
 {
 	if
-		(n < 0)
-		_putchar(-n);
+		(n <= 0)
+		return (-n);
 	else if
-		(n > 0)
-		_putchar(n);
-
+		(n >= 0)
+		return (n);
 	return (0);
 }
