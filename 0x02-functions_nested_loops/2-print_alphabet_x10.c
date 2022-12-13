@@ -1,25 +1,24 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - check the code
+ * print_alphabet_x10 - entry point
  *
- * Return: Always 0.
  */
-int main (void)
+void print_alphabet_x10(void)
 {
-	void print_alphabet_x10(void);
-       
 	char i = 1;
-	
+
 	while (i <= 10)
 	{
 		char c = 'a';
-		while (c <= 'z')
+
+		while
+		(c <= 'z')
 			{
-				putchar(c);
-		 		c++;
+				_putchar(c);
+				c++;
 			}
 	}
-	putchar ('\n');
+	_putchar ('\n');
 	i++;
-	return (0);
-}		
+}
