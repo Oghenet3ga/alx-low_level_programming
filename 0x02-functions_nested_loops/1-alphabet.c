@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - entry point
  *
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
