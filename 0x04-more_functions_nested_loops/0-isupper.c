@@ -7,10 +7,16 @@
  */
 int _isupper(int c)
 {
-	c = 'A';
+	char uppercase = 'A';
+	int isupper = 0;
 
-		if (c >= 'A', c <= 'Z', c++)
-			return (1);
-		else
-			return (0);
+	for (; uppercase <= 'Z'; uppercase++)
+	{
+		if (c == uppercase)
+		{
+			isupper = 1;
+			break;
+		}
+	}
+	return (isupper);
 }
