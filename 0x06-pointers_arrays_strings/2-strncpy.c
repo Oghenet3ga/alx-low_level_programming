@@ -2,9 +2,9 @@
 
 /**
  * _strncpy -  function that copies a string..
- * @src: cadena a copiar
- * @dest: destino de la cadena.
- * @n: number.
+ * @src: character
+ * @dest:character
+ * @n: integer
  * Return: void
  */
 
